@@ -60,8 +60,8 @@ namespace TouchEventsInWpfEdition
 
             ShapeFileFeatureLayer worldLayer = new ShapeFileFeatureLayer(@"..\..\SampleData\Countries02.shp");
             worldLayer.DrawingMarginInPixel = 60;
-            worldLayer.ZoomLevelSet.ZoomLevel01.DefaultAreaStyle = AreaStyles.Country1;
-            worldLayer.ZoomLevelSet.ZoomLevel01.DefaultTextStyle = TextStyles.Country1("CNTRY_NAME");
+            worldLayer.ZoomLevelSet.ZoomLevel01.DefaultAreaStyle = AreaStyles.CreateSimpleAreaStyle(GeoColor.FromArgb(255, 233, 232, 214), GeoColor.FromArgb(255, 156, 155, 154), 1);
+            worldLayer.ZoomLevelSet.ZoomLevel01.DefaultTextStyle = WorldStreetsTextStyles.GeneralPurpose("CNTRY_NAME", 10);
             worldLayer.ZoomLevelSet.ZoomLevel01.DefaultTextStyle.Font = new GeoFont("Arial", 16, DrawingFontStyles.Bold);
             worldLayer.ZoomLevelSet.ZoomLevel01.ApplyUntilZoomLevel = ApplyUntilZoomLevel.Level20;
             layerOverlay.Layers.Add("SampleLayer", worldLayer);
@@ -147,7 +147,7 @@ namespace TouchEventsInWpfEdition
         {
             if (tapRadioButton.IsChecked.GetValueOrDefault())
             {
-                AddMarkerToMap(new PointShape(e.ScreenX,e.ScreenY));
+                AddMarkerToMap(new PointShape(e.ScreenX, e.ScreenY));
             }
         }
 
