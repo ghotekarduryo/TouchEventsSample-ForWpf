@@ -4,7 +4,7 @@
     xmlns:uc1="clr-namespace:ThinkGeo.MapSuite.Wpf;assembly=ThinkGeo.MapSuite.Wpf"
     xmlns:uc2="clr-namespace:TouchEventsInWpfEdition"
     Background="#cccccc" Title="Touch Events In Wpf Edition - Map Suite Wpf sample application" Height="768" Width="1024" FontSize="12" FontFamily="arial" 
-    WindowStartupLocation="CenterScreen" Icon="/TouchEventsInWpfEdition;component/Resources/ms.ico" ResizeMode="CanResize" WindowState="Maximized">
+    WindowStartupLocation="CenterScreen" Icon="Resources/ms.ico" ResizeMode="CanResize" WindowState="Maximized">
     <Grid x:Name="LayoutRoot" MinWidth="300">
         <Grid.RowDefinitions>
             <RowDefinition Height="81"></RowDefinition>
