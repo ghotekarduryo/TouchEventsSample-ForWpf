@@ -12,7 +12,7 @@ The sample code makes this straight forward to implement.
 
 This sample makes use of the following NuGet Packages
 
-[MapSuite 9.0.48.0](http:mapsuite.nuget)
+[MapSuite 10.0.0.0](https://www.nuget.org/packages?q=thinkgeo)
 
 ### About the Code
 
