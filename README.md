@@ -6,7 +6,7 @@ This sample shows how to take advantage of touch screen to manipulate that map u
 
 The sample code makes this straight forward to implement. 
               
-Please refer to [Wiki](http://wiki.thinkgeo.com/wiki/map_suite_desktop_for_wpf) for the details.
+Please refer to [Wiki](System.String[]) for the details.
 
 ![Screenshot](https://github.com/ThinkGeo/TouchEventsSample-ForWpf/blob/master/ScreenShot.png)
 
