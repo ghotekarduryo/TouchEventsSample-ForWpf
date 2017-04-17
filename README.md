@@ -1,4 +1,4 @@
-# Touch Events Sample
+# Touch Events Sample for Wpf
 
 ### Description
 
